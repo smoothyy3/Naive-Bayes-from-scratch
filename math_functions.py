@@ -7,8 +7,8 @@ CALCULATIONS NEEDED FOR BOTH DATA TYPES
 - Computing Eulers number (e) via the Taylor series (requires factorial)
 '''
 
-def prior_prob(labels: list[int]) -> dict:
-    if not labels:
+def prior_prob(labels: list) -> dict:
+    if len(labels) == 0:
         raise ValueError("Labels list cannot be empty")
     
     counts = {}

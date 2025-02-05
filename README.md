@@ -16,14 +16,3 @@ This implementation is built without any imports, relying only on Python's basic
 - **Flexible Probability Distributions**: The implementation will initially support the Gaussian distribution, with potential extensions to Bernoulli and Multinomial distributions.
 
 ---
-
-## To-Do
-- ❌ Implement prior probability calculation \( P(C) \).
-- ❌ Implement likelihood calculation for Gaussian distribution \( P(x|C) \).
-- ❌ Implement posterior probability calculation \( P(C|x) \) using Bayes' Theorem.
-- ❌ Add prediction functionality for single and batch inputs.
-- ❌ Add example dataset (e.g., Iris or custom).
-- ❌ Implement accuracy evaluation for the classifier.
-- ❌ Extend support to Bernoulli and Multinomial distributions.
-
----
